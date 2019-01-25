@@ -1,0 +1,33 @@
+{
+  "name": "wtdl/framework",
+  "keywords": [
+    "framework"
+  ],
+  "type": "project",
+  "license": "MIT",
+  "repositories": [
+    {
+      "type": "path",
+      "url": "/var/www/wtdl/wtdl/framework"
+    }
+  ],
+  "authors": [
+    {
+      "name": "pengjian",
+      "email": "szpengjian@gmail.com",
+      "homepage": "https://www.szwtdl.cn"
+    }
+  ],
+  "require": {
+    "php": ">=7.0",
+    "predis/predis": "v1.1.1",
+    "wtdl/framework": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Wtdl\\Framework": "src/"
+    }
+  },
+  "require-dev": {
+  }
+}
